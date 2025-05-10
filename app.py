@@ -20,7 +20,7 @@ def hello_fat():
 ## TODO: Definiert eine Route auf den Pfad /25-01 mit einer Funktion, die "Hallo Kurs 25-01" zurückgibt
 @app.route('/25-01')
 def kurs():
-    return "<h1>Hallo Kurs 25-01</h1>"
+    return "<p>Hallo Kurs 25-01</p>"
 
 ## Dies ist die Hundesalon-Seite
 @app.route('/info')
